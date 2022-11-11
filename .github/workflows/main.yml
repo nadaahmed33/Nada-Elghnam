@@ -12,7 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
-      - name: 'Testing Printing'
-        run: echo Nada
+      - name: 'Printing folder content'
+        run: ls
