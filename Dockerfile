@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /app
 
-COPY nada.java
+COPY nada.java .
 
 RUN javac nada.java
 
